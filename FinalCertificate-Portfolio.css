@@ -1,0 +1,228 @@
+/*
+Unknown issues: 
+How do I get the link for my project-tiles to be active for the whole of my button not just my words?
+When the display get too narrow my certificate button disapears, how do IO fix that (@media)?
+*/
+
+
+
+:root {--scheme-color1: rgb(61, 61, 61);
+    --scheme-color2: rgb(114, 114, 114);
+    --scheme-color3: rgb(240, 240, 240);
+    --scheme-color4: rgb(51, 95, 254);
+    --scheme-color5: rgb(0, 255, 0); 
+    scroll-behavior: smooth;
+  }
+   
+   
+  body {background-color: var(--scheme-color3); 
+    margin: 0; 
+    
+ } 
+  
+  
+  
+   #navbar { 
+    width: 100%; 
+    height: 45px; 
+    background-color: 
+    var(--scheme-color1) ;  
+    text-align: right; 
+    position: fixed;
+    padding-top: 20px; 
+    z-index: 4; 
+       
+   }
+  
+  .nav-link { 
+    padding-left: 35px; 
+    padding-right: 35px;
+    margin: 30px;
+    text-decoration: none;
+     color: var(--scheme-color4); 
+     font-size: 25px;
+     box-shadow: 0px 2px 2px var(--scheme-color2); 
+     background: linear-gradient(
+      var(--scheme-color1) 60%, var(--scheme-color2)
+      )
+     
+       
+    }
+  
+  #welcome-section {
+    padding-top: 10rem; 
+    background: var(--scheme-color3);
+    font-family: cursive; 
+    width: 100%;
+    height: 45rem;
+    text-align: center; 
+    display: flex;
+}
+  
+
+#who {
+  color: var(--scheme-color4); 
+  width: 20rem;
+  margin-left: 2rem;
+    margin-right: 2rem
+  
+
+
+}
+
+
+.about-1 {
+  color: var(--scheme-color4);
+  width: 20rem;
+  font-size: 2rem;
+  margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+}
+
+.about-2 { 
+    color: var(--scheme-color4);
+    width: 30rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 18rem;
+    margin-top 11rem;
+  }
+
+
+ #projects {
+    height: calc(100%  + div); 
+    background-color: var(--scheme-color2); 
+    color: var(--scheme-color5);
+    padding-top: 0.1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+     
+    
+}
+
+#project-section-head {
+    padding: 2rem;
+     font-family: cursive; 
+    
+    }
+  
+.project-tile { 
+  background-color: var(--scheme-color5); 
+  border-color: black; 
+  border-width: 0.3rem;
+  width: 10rem; 
+  height: 10rem;
+  box-shadow: -2px 2px 20px 15px black;
+     
+}
+
+.project-tile a {
+color: black; 
+font-size: 25px; 
+text-decoration: none;  }
+
+.project-tile {text-decoration: none; 
+  color: black      }
+
+  .project-tile:hover { 
+    background-color: whitesmoke;
+  }
+
+  .project-tile:active { 
+    background-color: blue
+  }
+
+
+footer {background-color: black;
+     color: antiquewhite; 
+     height: 300px; 
+     width: 100%;
+     text-align: center;
+     }
+
+.connect {
+
+    font: 50px cursive; 
+    margin-top: 0px;
+     padding-top: 20px;
+     
+    
+     
+}
+ 
+.github { 
+    margin-right: 25rem;
+     font-size: 40px; 
+     padding: 10px 60px 10px 60px; 
+      text-decoration: none;
+       background: linear-gradient(90deg,  
+        black , 
+        var(--scheme-color5) , 
+        black ); 
+        border: 0; 
+      
+}
+
+.github a {color: black; text-decoration: none;}
+
+
+.github:hover {transform: scale(1.5); }
+
+
+.freecodecamp {position: absolute; 
+  margin-left: -15rem; 
+  margin-top: -10px; 
+  padding: 20px; 
+  background-color: rgb(18, 0, 72); 
+   font-size: 30px;
+   border-color: rgb(230, 235, 255);
+   border-width: 5px;
+}  
+
+.freecodecamp:hover {transform: scale(1.5); }
+
+
+.certification {color: white; text-decoration: none;}
+
+@media  (max-width: 62rem) {
+ .who, .about-1, .about-2 {
+  margin: 0 
+ }
+ .about-2 { 
+  margin-top: 10rem; 
+  position: absolute;
+  width: 20rem;
+  left: 4rem;
+
+}
+}
+
+ @media (max-width: 38rem) {
+  .nav-link { 
+    margin-left: auto;
+    color: green;
+  }
+ }
+/* 
+ @media (max-width: 43rem) {
+  .freecodecamp {
+    dont know how to make certification button behave 
+  }
+ }
+ */
+
+
+@keyframes 
+  about { 
+    0% { transform: rotate(0deg);}
+    25% {transform: rotate(6deg)}
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(-6deg)}
+    100% {transform: rotate(0deg)}
+  }
+
+
+
+@media {}
